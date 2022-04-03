@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "minecraft:diamond_sword",
+			"materials": {
+				"default": "phantom",
+				"enchanted": "phantom"
+			},
+			"textures": {
+				"default": "textures/castmodel/diamond",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.explersword"
+			},
+			"render_controllers": [
+				"controller.render.item_default"
+			]
+		}
+	}
+}
