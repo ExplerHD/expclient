@@ -1,0 +1,32 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "A Client to make minecraft ui more better than usual",
+    "name": "Exp Client 1.1",
+    "min_engine_version": [ 1, 17, 0 ],
+    "version": [ 1, 1, 0 ],
+    "uuid": "9d434fe3-2888-47fb-8242-91e57dc1e9f2"
+  },
+  
+  "modules": [
+    {
+      "type": "resources",
+      "description": "",
+      "version": [ 1, 1, 0 ],
+      "uuid": "667e00f4-6ca4-45d9-9cc9-ea8cad1e1011"
+    }
+  ],
+  
+  "subpacks": [
+    {
+      "folder_name": "ui1",
+      "name": "UI1",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "ui2",
+      "name": "UI2",
+      "memory_tier": 1
+    }
+  ]
+}
